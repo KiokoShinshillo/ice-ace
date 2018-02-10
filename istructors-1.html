@@ -11,15 +11,10 @@
 <body>
   <header class="header">
     <div class="container">
-      <!-- div.container
-      Давай сведем все контейнеры к одному классу -->
       <div class="logo">
-        <img src="http://via.placeholder.com/100x50" alt="logo" class="logo">
+        <img src="images/logo__img.png" alt="logo" class="logo">
       </div>
       <nav class="nav">
-        <!-- сложно -->
-        <!-- nav.nav -->
-        <!-- ul.nav__list>li.nav__item и тд -->
         <ul class="nav__list">
           <li class="nav__item"><a href="" class="nav__link">Расписание</a>
           </li>
@@ -30,89 +25,87 @@
           <li class="nav__item"><a href="" class="nav__link">Как добраться</a>
           </li>
         </ul>
-      </nav>
-      <!-- Номеру телефона какой класс задать? Ведь он же и в футере дублируется --> <a href="#" class="contact">8 (800) 800-80-80</a>
+      </nav> <a href="tel:+78008008080" class="contact">8 (800) 800-80-80</a>
       <a href="#" class="btn"> Записаться </a>
     </div>
   </header>
   <main class="maine">
     <div class="container">
       <h1 class="title">Инструкторы школы</h1>
-      <!-- h1 -->
       <form class="search-form">
-        <!-- Либо отложи до занятия по интерактивным элементам или нагугли -->
-        <input class="search-form__input">
-        <!-- атрибут плейсхолдер -->
-        <button class="search-form__button">Начните вводить имя</button>
-        <!-- input[type="submit"] -->
+        <input class="search-form__input" type="submit" placeholder="Начните вводить имя">
       </form>
       <div class="instructor">
-        <!-- классы отличные от классов на index -->
         <div class="instructor__item">
-          <img class="instructor__item-img" src="http://via.placeholder.com/100x100" alt="photo"> <span class="instructor__item-descr">Lorem</span>
+          <img class="instructor__item-img" src="images/instructor__item-img1.jpg" alt="photo"> <span class="instructor__item-descr">Арсений Петров</span>
         </div>
         <div class="instructor__item">
-          <img class="instructor__item-img" src="http://via.placeholder.com/100x100" alt="photo"> <span class="instructor__item-descr">Lorem</span>
+          <img class="instructor__item-img" src="images/instructor__item-img2.jpg" alt="photo"> <span class="instructor__item-descr">Арсений Петров</span>
         </div>
         <div class="instructor__item">
-          <img class="instructor__item-img" src="http://via.placeholder.com/100x100" alt="photo"> <span class="instructor__item-descr">Lorem</span>
+          <img class="instructor__item-img" src="images/instructor__item-img3.jpg" alt="photo"> <span class="instructor__item-descr">Степан Александров</span>
         </div>
         <div class="instructor__item">
-          <img class="instructor__item-img" src="http://via.placeholder.com/100x100" alt="photo"> <span class="instructor__item-descr">Lorem</span>
+          <img class="instructor__item-img" src="images/instructor__item-img4.jpg" alt="photo"> <span class="instructor__item-descr">Арсений Петров</span>
         </div>
         <div class="instructor__item">
-          <img class="instructor__item-img" src="http://via.placeholder.com/100x100" alt="photo"> <span class="instructor__item-descr">Lorem</span>
+          <img class="instructor__item-img" src="images/instructor__item-img5.jpg" alt="photo"> <span class="instructor__item-descr">Виталий Сергеев</span>
         </div>
       </div>
       <article class="profile">
-        <h2 class="article-title">Константин Константинопольский</h2>
-        <!-- h2 -->
+        <h2 class="title">Константин Константинопольский</h2>
         <div class="profile__avatar">
-          <img src="http://via.placeholder.com/200x200" alt="profile">
+          <img src="images/profile__avatar-instructor.jpg" alt="profile">
         </div>
         <ul class="profile__list">
-          <li class="list__item"><span>Lorem</span>
+          <li class="list__item"><span>Спорт</span>
           </li>
-          <li class="list__item"><span>Lorem</span>
+          <li class="list__item"><span>Стаж катания</span>
+            <span>7 лет</span>
           </li>
-          <li class="list__item"><span>Lorem</span>
+          <li class="list__item"> <span>Стиль</span>
+            <span>#allround<br>
+              #freeride<br>
+              #skiicross
+            </span>
           </li>
         </ul>
-        <div class="profile__action"><a href="#" class="btn">Записаться</a>
-          <!-- profile__action profile-action -->
-          <button class="btn"> <a href="#" class="profile__link btn"><span>Спасибо</span></a>
-            <!-- "Не нужно плодить сущности без необходимости" Бритва Оккама -->
+        <div class="profile__action action"> <a href="#" class="action__btn btn">Записаться</a>
+          <button class="btn"> <a href="#" class="action__link btn"><span>Спасибо</span></a>
           </button>
         </div>
         <h3> Образование </h3>
         <!-- h3 -->
-        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro magnam laboriosam dolores soluta temporibus voluptatibus!</p>
-        <video src="http://via.placeholder.com/" alt="">
+        <p class="text">Национальная лига инструкторов, сертификат инструктора по горным лыжам, г. Санкт-Петербург (2014 год).
+          <br>Занимается горными лыжами с 2002 года. Первый взрослый разряд по горным лыжам — в 2010 г.Опыт тренерской работы с 2012 года.
+          <br>3 место на чемпионате Ленинградской области по горным лыжам. 1 место на чемпионате Карелии по горным лыжам.</p>
+        <video src="images/video.jpg" alt="">
       </article>
       <article class="comment">
         <div class="comment-background">
-          <img src="http://via.placeholder.com/" alt="winter">
+          <img src="images/comment-background.jpg" alt="winter">
         </div>
         <a href="#" class="comment__link_vk"></a>
         <h4> Марина Ильина </h4>
-        <p class="text"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque alias, odio mollitia, cum nisi ipsa.</span>
+        <p class="text"><span> Костя — отличный тренер! Провела с ним всего одно занятие, чего, в принципе, мне и было достаточно. Я и раньше занималась горными лыжами, и мне нужно было вспомнить и наверстать упущенное. Инструктор очень пунктуальный, вежливый и тактичный. Цели я своей добилась, он помог мне вновь встать на лыжи и закрепить свои навыки даже за одно занятие.
+        </span>
         </p>
       </article>
       <div class="instructor">
         <div class="instructor__item">
-          <img class="instructor__item-img" src="http://via.placeholder.com/100x100" alt="photo"> <span class="instructor__item-descr">Lorem</span>
+          <img class="instructor__item-img" src="images/instructor__item-img6--second.jpg" alt="photo"> <span class="instructor__item-descr">Иван Артемов</span>
         </div>
         <div class="instructor__item">
-          <img class="instructor__item-img" src="http://via.placeholder.com/100x100" alt="photo"> <span class="instructor__item-descr">Lorem</span>
+          <img class="instructor__item-img" src="images/instructor__item-img7--second.jpg" alt="photo"> <span class="instructor__item-descr">Петр Иванов</span>
         </div>
         <div class="instructor__item">
-          <img class="instructor__item-img" src="http://via.placeholder.com/100x100" alt="photo"> <span class="instructor__item-descr">Lorem</span>
+          <img class="instructor__item-img" src="images/instructor__item-img8--second.jpg" alt="photo"> <span class="instructor__item-descr">Андрей Степанов</span>
         </div>
         <div class="instructor__item">
-          <img class="instructor__item-img" src="http://via.placeholder.com/100x100" alt="photo"> <span class="instructor__item-descr">Lorem</span>
+          <img class="instructor__item-img" src="images/instructor__item-img9--second.jpg" alt="photo"> <span class="instructor__item-descr">Данила Алексеев</span>
         </div>
         <div class="instructor__item">
-          <img class="instructor__item-img" src="http://via.placeholder.com/100x100" alt="photo"> <span class="instructor__item-descr">Lorem</span>
+          <img class="instructor__item-img" src="images/instructor__item-img10--second.jpg" alt="photo"> <span class="instructor__item-descr">Дмитрий Егоров</span>
         </div>
       </div>
     </div>
@@ -120,7 +113,7 @@
 <footer class="footer">
   <div class="container">
     <div class="logo">
-      <img src="http://via.placeholder.com/100x50" alt="logo" class="logo">
+      <img src="images/logo__img.png" alt="logo" class="logo">
     </div>
     <p>(c) <span> "Ice Ace" </span> - школа сноуборда
       <br>и горных лыж. Все права защищены</p>
@@ -137,7 +130,7 @@
       </ul>
     </nav>
     <div class="contact">
-<a href="#" class="contact__link">8 (800) 800-80-80</a>
+<a href="tel:+78008008080" class="contact__link">8 (800) 800-80-80</a>
       <p class="contact__mail"><span>Hello@ice-ace.com</span>
       </p>
     </div>

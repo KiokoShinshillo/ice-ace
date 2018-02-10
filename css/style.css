@@ -103,3 +103,83 @@ p {
 }
 
 
+.bg-comment__vk {
+    width: 28px; height: 16px;
+    background: url('css_sprites.png') -231px -186px;
+}
+
+.bg-feature__item_2 {
+    width: 53px; height: 61px;
+    background: url('css_sprites.png') -168px -105px;
+}
+
+.bg-feature__item_3 {
+    width: 58px; height: 61px;
+    background: url('css_sprites.png') -90px -105px;
+}
+
+.bg-feature__item_4 {
+    width: 61px; height: 75px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+.bg-feature__item_5 {
+    width: 58px; height: 71px;
+    background: url('css_sprites.png') -191px -10px;
+}
+
+.bg-feature__item_6 {
+    width: 80px; height: 55px;
+    background: url('css_sprites.png') -91px -10px;
+}
+
+
+.bg-feature__item_like_1 {
+    width: 60px; height: 61px;
+    background: url('css_sprites.png') -10px -105px;
+}
+
+.bg-list__item__ski {
+    width: 31px; height: 71px;
+    background: url('css_sprites.png') -269px -10px;
+}
+
+.bg-next {
+    width: 14px; height: 28px;
+    background: url('css_sprites.png') -10px -238px;
+}
+
+.bg-Prev {
+    width: 14px; height: 28px;
+    background: url('css_sprites.png') -44px -238px;
+}
+
+.bg-profile__flash {
+    width: 15px; height: 26px;
+    background: url('css_sprites.png') -78px -238px;
+}
+
+.bg-right_arrow {
+    width: 37px; height: 27px;
+    background: url('css_sprites.png') -114px -186px;
+}
+
+.bg-social__facebook {
+    width: 18px; height: 33px;
+    background: url('css_sprites.png') -269px -101px;
+}
+
+.bg-social__instagram {
+    width: 32px; height: 32px;
+    background: url('css_sprites.png') -10px -186px;
+}
+
+.bg-social__vk {
+    width: 40px; height: 24px;
+    background: url('') -171px -186px;
+}
+
+.bg-social__youtube {
+    width: 32px; height: 32px;
+    background: url('images/css_sprites.png') -62px -186px;
+}
