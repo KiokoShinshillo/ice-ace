@@ -83,6 +83,7 @@ i {
 }
 
 .container,
+.maine__container,
 .header__container,
 .promo-container,
 .service__container,
@@ -614,19 +615,192 @@ color: #000;
 
 /*Instructors-page*/
 
+/*HEADER*/
+.header{
+  padding: 35px;
 
+}
 
+.logo {
+  float: left;
+  width: 160px;
+}
 
-/*instructors/profile*/
+.logo__img{
+  width: 100%;
+  display: block;
+}
+
+.nav{
+  float: left;
+  width: 620px;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.nav__list{
+}
+
+.nav__item{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav__item--current{
+  padding-bottom: 10px;
+  display: inline-block;
+  margin: 0 10px;
+  border-bottom: 3px solid #74e196;
+
+.nav__link {
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.contacts {
+  float: right;
+  width: 380px;
+}
+
+.contacts__link{
+  float: left;
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+/*btn*/
+.btn{
+  display: inline-block;
+  /*width: auto;*/
+  /*width: 135px;*/
+  font-size: 15px;
+  font-weight: 700;
+  /*text-align: center;*/
+  text-decoration: none;
+  color: #74e196;
+  padding: 10px 12px;
+  text-transform: uppercase;
+  border: 2px solid #000;
+}
+
+.header__btn {
+  float: right;
+  margin-top: 7px;
+}
+
+/*maine*/
+.maine {
+}
+
+.maine__container {
+}
+
+.maine__title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+}
+
+.search-form {
+}
+
+.search-form__input {
+}
+
+.instructor {
+}
+
+.instructor__item {
+}
+
+.instructor__item-img {
+}
+
+.instructor__item-descr {
+}
+
+.profile {
+}
+
+.profile__title {
+}
+
+.profile__avatar {
+}
+
+.profile__list {
+}
+
+.list__item {
+}
+
 .list__item_ski {
-    width: 31px; height: 71px;
-    background: url('../images/sprites.png') -269px -10px;
+  width: 31px; height: 71px;
+  background: url('../images/sprites.png') -269px -10px;
+}
+
+.profile__action {
+}
+
+.action {
+}
+
+.action__btn {
+}
+
+.btn {
 }
 
 .action__link_flash {
-    width: 15px; height: 26px;
-    background: url('../images/sprites.png') -78px -238px;
+  width: 15px; height: 26px;
+  background: url('../images/sprites.png') -78px -238px;
 }
+
+.profile__subtitle {
+}
+
+.profile__text {
+}
+
+
+
+.comment {
+}
+
+.comment__title{
+
+}
+.comment__text{
+
+}
+
+.comment-background {
+  height: 226px;
+  background-image:url("../images/comment-background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+/*  padding-top: 58px;
+  padding-bottom: 110px;*/
+}
+
+.comment__link-vk {
+  width: 28px; height: 16px;
+  background: url('../images/sprites.png') -231px -186px;
+}
+
+
+
+
+/*schedule-page*/
+
+/*schedule-sprites*/
 
 .profile__next {
     width: 14px; height: 28px;
@@ -638,8 +812,4 @@ color: #000;
     background: url('../images/sprites.png') -44px -238px;
 }
 
-/*istructors/commemt*/
-.comment__link_vk {
-    width: 28px; height: 16px;
-    background: url('../images/sprites.png') -231px -186px;
-}
+
