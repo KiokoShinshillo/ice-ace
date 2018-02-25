@@ -1,0 +1,88 @@
+.team {
+  @media (min-width: $screen-xs) {
+
+  }
+
+  @media (min-width: $screen-sm) {
+
+  }
+
+  @media (min-width: $screen-lg) {
+
+
+  }
+
+  &__title {
+    @media (min-width: $screen-xs) {
+
+  }
+
+  @media (min-width: $screen-sm) {
+
+  }
+
+  @media (min-width: $screen-lg) {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+  }
+  }
+
+  &__container {
+    text-align: center;
+    background-image: url("../images/team__photo.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 540px;
+    margin-bottom: 80px;
+  }
+
+  &__text {
+    @media (min-width: $screen-xs) {
+
+  }
+
+  @media (min-width: $screen-sm) {
+
+  }
+
+  @media (min-width: $screen-lg) {
+    margin-bottom: 50px;
+    padding: 0 240px;
+    text-align: center;
+    font-family: PT Sans, sans;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000;
+    line-height: 22px;
+
+  }
+  }
+
+  &__btn {
+    @media (min-width: $screen-xs) {
+
+  }
+
+  @media (min-width: $screen-sm) {
+
+  }
+
+  @media (min-width: $screen-lg) {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #74e196;
+    line-height: 20px;
+    padding: 12px 10px;
+    text-transform: uppercase;
+    border: 2px solid #000;
+
+  }
+  }
+}

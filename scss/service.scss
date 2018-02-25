@@ -1,0 +1,149 @@
+.service {
+
+  &__container {
+    width: 100%;
+
+    @media (min-width: $screen-xs) {}
+    @media (min-width: $screen-sm) {}
+    @media (min-width: $screen-lg) {
+      width: 1160px;
+      margin: 0 auto;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+
+    @media (min-width: $screen-xs) {}
+    @media (min-width: $screen-sm) {}
+    @media (min-width: $screen-lg) {
+     font-size: 40px;
+    }
+  }
+
+  &__subtitle {
+    text-align: center;
+    font-weight: 700;
+
+    @media (min-width: $screen-xs) {
+      font-size: 10px;
+    }
+
+    @media (min-width: $screen-sm) {
+      margin-bottom: 25px;
+      font-size: 20px;
+    }
+
+    @media (min-width: $screen-lg) {
+      margin-bottom: 40px;
+      font-weight: 700;
+    }
+  }
+}
+
+.wrap {
+  @media (min-width: $screen-xs) {}
+  @media (min-width: $screen-sm) {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+  }
+
+  @media (min-width: $screen-lg) {}
+
+  &__photo {
+      overflow: hidden;
+      object-fit: cover;
+      width: 100%;
+
+    @media (min-width: $screen-xs) {}
+    @media (min-width: $screen-sm) {}
+    @media (min-width: $screen-lg) {
+      width: 31%;
+      margin: 12px;
+    }
+
+  }
+
+  &__info {
+
+    @media (min-width: $screen-xs) {}
+    @media (min-width: $screen-sm) {}
+    @media (min-width: $screen-lg) {
+      width: 31%;
+      display: block;
+      margin: 12px;
+    }
+  }
+
+  &__title {
+      color: #fff;
+
+    @media (min-width: $screen-xs) {
+      font-size: 14px;
+      font-weight: 700;
+      text-align: left;
+    }
+    @media (min-width: $screen-sm) {
+      color: #000;
+      color: #000;
+      font-size: 20px;
+      margin-top: 0;
+    }
+    @media (min-width: $screen-lg) {}
+
+  }
+
+  &__text {
+    display: none;
+    font-family: PT Sans, sans-serif;
+
+    @media (min-width: $screen-xs) {
+      display: block;
+    }
+
+    @media (min-width: $screen-sm) {
+      margin-bottom: 20px;
+      line-height: 22px;
+      font-weight: 700;
+    }
+
+    @media (min-width: $screen-lg) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__links {}
+
+  &__links span {
+    font-weight: 700;
+      display: none;
+
+    @media (min-width: $screen-xs) {
+    }
+
+    @media (min-width: $screen-sm) {
+      display: block;
+      font-size: 20px;
+    }
+
+    @media (min-width: $screen-lg) {
+      float: left;
+      font-weight: 700;
+      text-align: left;
+      color: #000;
+    }
+
+  }
+
+  &__icon_right {
+    width: 37px;
+    height: 27px;
+    background: url("../images/sprites.png") -114px -186px;
+    float: right;
+  }
+}

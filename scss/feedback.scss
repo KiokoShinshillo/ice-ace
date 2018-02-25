@@ -1,0 +1,32 @@
+.feedback {
+  &__container {
+  }
+  &__title {
+  }
+  &__form {
+  }
+  &__btn {
+  }
+}
+.form {
+  @media (min-width: $screen-xs) {
+
+  }
+
+  @media (min-width: $screen-sm) {
+
+  }
+
+  @media (min-width: $screen-lg) {
+
+  }
+
+  &__label {
+  }
+  &__input {
+  }
+  &__textarea {
+  }
+}
+.btn {
+}

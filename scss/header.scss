@@ -1,0 +1,156 @@
+.header {
+  // position: fixed;
+  // width: 100%;
+  // top: 0;
+  // background-color: #fff;
+
+  @media (min-width: $screen-xs) {
+
+  }
+
+  @media (min-width: $screen-sm) {
+
+  }
+
+  @media (min-width: $screen-lg) {
+    padding: 35px;
+  }
+
+  &__container {
+
+  @media (min-width: $screen-xs) {
+
+  }
+
+  @media (min-width: $screen-sm) {
+
+  }
+
+  @media (min-width: $screen-lg) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // padding-top: 40px;
+  }
+  }
+
+  &__btn {
+
+  @media (min-width: $screen-xs) {
+
+  }
+
+  @media (min-width: $screen-sm) {
+
+  }
+
+  @media (min-width: $screen-lg) {
+    margin-left: 40px;
+  }
+  }
+}
+.logo {
+
+  @media (min-width: $screen-xs) {
+
+  }
+
+  @media (min-width: $screen-sm) {
+
+  }
+
+  @media (min-width: $screen-lg) {
+    width: 160px;
+  }
+
+
+  &__img {
+
+    @media (min-width: $screen-xs) {
+
+    }
+
+    @media (min-width: $screen-sm) {
+
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 100%;
+      display: block;
+      margin-right: 35px;
+    }
+  }
+}
+
+.contacts {
+
+  @media (min-width: $screen-xs) {
+
+  }
+
+  @media (min-width: $screen-sm) {
+
+  }
+
+  @media (min-width: $screen-lg) {
+
+  }
+
+  &--clearfix {
+
+    @media (min-width: $screen-xs) {
+
+    }
+
+    @media (min-width: $screen-sm) {
+
+    }
+
+    @media (min-width: $screen-lg) {
+
+    }
+  }
+
+  &__link {
+
+    @media (min-width: $screen-xs) {
+
+    }
+
+    @media (min-width: $screen-sm) {
+
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 22px;
+      font-weight: 700;
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}
+
+.btn {
+
+  @media (min-width: $screen-xs) {
+
+  }
+
+  @media (min-width: $screen-sm) {
+
+  }
+
+  @media (min-width: $screen-lg) {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #74e196;
+    line-height: 20px;
+    padding: 12px 10px;
+    text-transform: uppercase;
+    border: 2px solid #000;
+  }
+}
+
+

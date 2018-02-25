@@ -1,0 +1,78 @@
+.profile {
+
+  &__title {
+
+    @media (min-width: $screen-xs) {
+
+    }
+
+    @media (min-width: $screen-sm) {
+
+    }
+
+    @media (min-width: $screen-lg) {
+
+    }
+  }
+
+  &__avatar {
+  }
+
+  &__list {
+  }
+
+  &__action {
+  }
+
+  &__subtitle {
+
+    @media (min-width: $screen-xs) {
+
+    }
+
+    @media (min-width: $screen-sm) {
+
+    }
+
+    @media (min-width: $screen-lg) {
+
+
+    }
+  }
+
+  &__text {
+
+  @media (min-width: $screen-xs) {
+
+  }
+
+  @media (min-width: $screen-sm) {
+
+  }
+
+  @media (min-width: $screen-lg) {
+
+
+  }
+  }
+
+}
+.list {
+
+  &__item {
+  }
+
+  &__item_ski {
+  }
+
+}
+.action {
+
+  &__btn {
+  }
+
+  &__link_flash {
+  }
+}
+.btn {
+}

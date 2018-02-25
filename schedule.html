@@ -3,13 +3,14 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta  name="viewport" content="width=device-width, initial-scale=1">
 	<title>schedule</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-<header class="header">
+	<header class="header">
     <div class="header__container">
       <div class="logo">
         <img src="images/logo__img.png" alt="logo" class="logo__img">
@@ -35,110 +36,123 @@
   </header>
 	<main class="main">
 		<section class="program">
-			<div class="container">
-				<h1 class="title"> Выбрать программу </h1>
-				<table class="proram-table">
-					<tr>
-						<td>Спорт</td>
-						<td>Инструктор</td>
-						<td>Дата</td>
-						<td>Время</td>
-						<td>Стоимость</td>
-						<td></td>
+			<div class="program__container">
+				<h1 class="program__title"> Выбрать программу </h1>
+				<table class="program__table table">
+					<tr class="table__row">
+						<td class="table__cell">Спорт</td>
+						<td class="table__cell">Инструктор</td>
+						<td class="table__cell">Дата</td>
+						<td class="table__cell">Время</td>
+						<td class="table__cell">Стоимость</td>
+						<td class="table__cell"></td>
 					</tr>
-					<tr>
-						<td>Сноуборд</td>
-						<td>Константин Константинопольсий</td>
-						<td>30.03.2017</td>
-						<td>12:00</td>
-						<td>2 000 руб.</td>
-						<td><a href="#" class="link"> Записаться </a>
+					<tr class="table__row">
+						<td class="table__cell">Сноуборд</td>
+						<td class="table__cell">Константин Константинопольсий</td>
+						<td class="table__cell">30.03.2017</td>
+						<td class="table__cell">12:00</td>
+						<td class="table__cell">2 000 руб.</td>
+						<td class="table__cell"><a href="#" class="link"> Записаться </a>
 						</td>
 					</tr>
-					<tr>
-						<td>Сноуборд</td>
-						<td>Константин Константинопольсий</td>
-						<td>01.04.2017</td>
-						<td>12:00</td>
-						<td>2 000 руб.</td>
-						<td><a href="#" class="link"> Записаться </a>
+					<tr class="table__row">
+						<td class="table__cell">Сноуборд</td>
+						<td class="table__cell">Константин Константинопольсий</td>
+						<td class="table__cell">01.04.2017</td>
+						<td class="table__cell">12:00</td>
+						<td class="table__cell">2 000 руб.</td>
+						<td class="table__cell"><a href="#" class="link"> Записаться </a>
 						</td>
 					</tr>
-					<tr>
-						<td>Лыжи</td>
-						<td>Степан Александров</td>
-						<td>01.04.2017</td>
-						<td>13:00</td>
-						<td>3 000 руб.</td>
-						<td><a href="#" class="link"> Записаться </a>
+					<tr class="table__row">
+						<td class="table__cell">Лыжи</td>
+						<td class="table__cell">Степан Александров</td>
+						<td class="table__cell">01.04.2017</td>
+						<td class="table__cell">13:00</td>
+						<td class="table__cell">3 000 руб.</td>
+						<td class="table__cell"><a href="#" class="link"> Записаться </a>
 						</td>
 					</tr>
-					<tr>
-						<td>Лыжи</td>
-						<td>Виталий Сергеев</td>
-						<td>03.04.2017</td>
-						<td>14:00</td>
-						<td>4 000 руб.</td>
-						<td><a href="#" class="link"> Записаться </a>
+					<tr class="table__row">
+						<td class="table__cell">Лыжи</td>
+						<td class="table__cell">Виталий Сергеев</td>
+						<td class="table__cell">03.04.2017</td>
+						<td class="table__cell">14:00</td>
+						<td class="table__cell">4 000 руб.</td>
+						<td class="table__cell"><a href="#" class="link"> Записаться </a>
 						</td>
 					</tr>
-					<tr>
-						<td>Сноуборд</td>
-						<td>Арсений Петров</td>
-						<td>04.04.2017</td>
-						<td>14:00</td>
-						<td>4 000 руб.</td>
-						<td><a href="#" class="link"> Записаться </a>
+					<tr class="table__row">
+						<td class="table__cell">Сноуборд</td>
+						<td class="table__cell">Арсений Петров</td>
+						<td class="table__cell">04.04.2017</td>
+						<td class="table__cell">14:00</td>
+						<td class="table__cell">4 000 руб.</td>
+						<td class="table__cell"><a href="#" class="link"> Записаться </a>
 						</td>
 					</tr>
 				</table>
-				<div class="card">
+			</div>
+
+		</section>
+		<section class="card">
+			<div class="card__conteiner">
 					<div class="card__avatar">
-						<img src="images/card__avatar.png" alt="Константин">	<span class="decription">Константин Константинопольский</span>
-					</div>
+						<img src="images/card__avatar.png" alt="Константин">
+						</div>
+						<span class="card__decription">Константин Константинопольский</span>
 					<div class="card__text">
-						<h3> Free ride / продвинутый уровень </h3>
-						<p>Дата занятия — 30 марта 2017 года.</p>
-						<h4> Абонемент на разовое посещение (3 часа) </h4>
-						<p>Занятие рассчитано на опытных учеников и проходит вне подготовленной трассы, рядом с горнолыжной базой. Катание по нетронутому снегу раскрывает все возможности горных лыж, а опытный инструктор научит контролировать лыжи на любой поверхности.</p>	<a href="" class="link"> Узнать больше </a>
+						<h3 class="card__title"> Free ride / продвинутый уровень </h3>
+						<p class="card__text">Дата занятия — 30 марта 2017 года.</p>
+						<h4 class="card__subtitle"> Абонемент на разовое посещение (3 часа) </h4>
+						<p class="card__text">Занятие рассчитано на опытных учеников и проходит вне подготовленной трассы, рядом с горнолыжной базой. Катание по нетронутому снегу раскрывает все возможности горных лыж, а опытный инструктор научит контролировать лыжи на любой поверхности.</p>
+						<a href="" class="card__link"> Узнать больше </a>
 					</div>
-					<div class="card__price">	<span>2 000 P</span>
-						<a href="#" class="btn"> Купить </a>
+					<div class="card__price">
+						<span>2 000 P</span>
+						<a href="#" class="card__btn btn"> Купить </a>
 					</div>
-				</div>
-				<!-- <nav class="nav">
-					<ul class="nav__pagination">
-						<li class="pagination__item--current">
-							<a href="#"></a>1</li>
-						<li class="pagination__item">
-							<a href="#"></a>2</li>
-						<li class="pagination__item">
-							<a href="#"></a>3</li>
-						<li class="pagination__item">
-							<a href="#"></a>4</li>
-					</ul>
-				</nav> -->
+				  <div>
+				    <nav class="nav">
+					    <ul class="nav__pagination">
+						    <li class="pagination__item--current">
+							    <a href="#">1</a>
+							  </li>
+						    <li class="pagination__item">
+							    <a href="#">2</a>
+							  </li>
+						    <li class="pagination__item">
+							    <a href="#">3</a>
+							  </li>
+						    <li class="pagination__item">
+							  <a href="#">4</a>
+							  </li>
+					    </ul>
+				    </nav>
+			    </div>
 			</div>
 		</section>
-		<section class="feedback">
-			<div class="container">
-				<h2 class="title">Заказать обратный звонок</h2>
-				<form class="feedback-form" action="" method="get">
-					<label class for="name" >*Имя:</label>
-					<input class="feedback-form__input" type="text" name="name" >
 
-					*Фамилия:<br>
-					<input class="feedback-form__input" type="text">
+		<section class="feedback">
+			<div class="feedback__container">
+				<h2 class="feedback__title">Заказать обратный звонок</h2>
+				<form class="feedback__form form" action="" method="get">
+					<label class="form__label" for="name" >*Имя:</label>
+					<input class="form__input" id="name" type="text" name="name">
+					<label class="form__label" for="name" >*Фамилия:</label>
+					<input class="form__input" id="name" type="text" name="sername">
+					<label class="form__label" for="name" >*Телефон:</label>
+					<input class="form__input" id="name" type="tel" name="phone">
 					<br>
-					*Телефон:<br>
-					<input class="feedback-form__input" type="text">
-					<br>
-					*Ваше сообщение<br>
-					<textarea class="feedback-form__textarea" cols="48" rows="8"></textarea>
+					<label class="form__label" for="name" >*Ваше сообщение</label>
+					<textarea class="form__textarea" id="name" cols="48" rows="8" type="text"></textarea>
 				</form>
-				<input class="feedback-form__submit" type="submit" value="Купить">
+				<button class="btn feedback__btn" type="submit"> Отправить </button>
+			</div>
 		</section>
 	</main>
+
 	<footer class="footer">
 		<div class="footer__container">
 			<div class="footer__logo">

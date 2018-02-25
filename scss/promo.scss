@@ -1,0 +1,55 @@
+.promo {
+  background-image: url('../images/promo__bg.jpg');
+  background-color: #000;
+  background-size: cover;
+  background-position: center bottom;
+  height: 400px;
+
+
+  @media (min-width: $screen-xs) {}
+  @media (min-width: $screen-sm) {}
+
+  @media (min-width: $screen-lg) {
+    padding-bottom: 320px;
+    padding-top: 100px;
+  }
+
+  &__title {
+    color: #fff;
+    font-size: 24px;
+
+
+    @media (min-width: $screen-xs) {}
+    @media (min-width: $screen-sm) {}
+
+    @media (min-width: $screen-lg) {
+     font-size: 50px;
+     line-height: 1;
+
+    }
+  }
+
+  &__title span {
+    font-size: 18px;
+    display: block;
+
+    @media (min-width: $screen-xs) {}
+    @media (min-width: $screen-sm) {}
+
+    @media (min-width: $screen-lg) {
+      font-size: 38px;
+      margin-top: 20px;
+    }
+  }
+
+  &__container {
+    width: 100%;
+
+    @media (min-width: $screen-xs) {}
+    @media (min-width: $screen-sm) {}
+    @media (min-width: $screen-lg) {
+      width: 1160px;
+      margin: 0 auto;
+    }
+  }
+}

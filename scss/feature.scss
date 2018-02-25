@@ -1,0 +1,136 @@
+.feature {
+  &__container {
+
+    @media (min-width: $screen-xs) {
+
+    }
+
+    @media (min-width: $screen-sm) {
+
+    }
+
+    @media (min-width: $screen-lg) {
+      /*display: flex;*/
+    }
+  }
+
+  &__item {
+    @media (min-width: $screen-xs) {
+
+    }
+
+    @media (min-width: $screen-sm) {
+
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 33%;
+      display: inline-block;
+      text-align: center;
+      padding: 20px;
+      margin: auto;
+    }
+  }
+
+  &__title {
+    color: #000;
+
+    @media (min-width: $screen-xs) {
+
+    }
+
+    @media (min-width: $screen-sm) {
+
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 40px;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+
+  &__subtitle {
+    @media (min-width: $screen-xs) {
+
+    }
+
+    @media (min-width: $screen-sm) {
+
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      color: #000;
+    }
+  }
+
+  &__text {
+    @media (min-width: $screen-xs) {
+
+    }
+
+    @media (min-width: $screen-sm) {
+
+    }
+
+    @media (min-width: $screen-lg) {
+      padding: 15px;
+      font-family: PT Sans, sans;
+      font-weight: 400;
+      font-size: 15px;
+      text-align: left;
+      color: #000;
+    }
+  }
+
+  &__item_like {
+
+      display: inline-block;
+      width: 60px;
+      height: 61px;
+      background: url("../images/sprites.png") -10px -105px;
+  }
+
+  &__item_certificate {
+
+      display: inline-block;
+      width: 53px;
+      height: 61px;
+      background: url("../images/sprites.png") -168px -105px;
+  }
+
+  &__item_calendar {
+
+      display: inline-block;
+      width: 58px;
+      height: 61px;
+      background: url("../images/sprites.png") -90px -105px;
+  }
+
+  &__item_ski {
+
+     display: inline-block;
+     width: 61px;
+     height: 75px;
+     background: url("../images/sprites.png") -10px -10px;
+  }
+
+  &__item_security {
+
+      display: inline-block;
+      width: 58px;
+      height: 71px;
+      background: url("../images/sprites.png") -191px -10px;
+  }
+
+  &__item_bus {
+
+      display: inline-block;
+      width: 80px;
+      height: 55px;
+      background: url("../images/sprites.png") -91px -10px;
+  }
+}
