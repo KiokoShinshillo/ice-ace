@@ -7,12 +7,20 @@
 	<title>Index</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+
+  <script src="scripts-js/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
 	<div class="promo">
 		<div class="promo__container">
+			<div class="promo__logo">
+				<img src="images/logo--white.png" alt="logo" class="promo__logo-img">
+			</div>
 			<h1 class="promo__title"> Школа сноуборда <br> и горных лыж <span> в Санкт-Петербурге </span></h1>
+		</div>
+		<div class="promo__btn-container">
+		  <a href="#" class="promo__btn">Записаться</a>
 		</div>
 	</div>
 	<header class="header">
@@ -45,51 +53,45 @@
 				<h2 class="service__title"> Наши услуги </h2>
 				<p class="service__subtitle">Для взрослых и детей 6+ / любого уровня подготовки</p>
 
-
-				<div class="service__wrap wrap">
-
-					<div class="wrap__photo">
-						<img src="images/services__photo1.jpg" alt="landscape">
+			<div class="service__inner">
+				<article class="service__article article">
+					<div class="article__photo1">
 					</div>
-
-          <div class="wrap__photo">
-						<img src="images/services__photo2.jpg" alt="landscape-ski">
+        	<h3 class="article__title"> Разовое посещение </h3>
+					<p class="article__text">Впервые здесь? Тогда эта возможность точно для вас. Приходите на разовое занятие и проникнетесь атмосферой школы, познакомитесь с инструкторами и узнаете о том, как проходит обучение. После занятия мы определим ваш уровень и прикинем план занятий</p>
+					<div class="article__links">
+						<span>3 часа</span>
+						<a href="#">
+						<i class="article__icon_right"></i></a>
 					</div>
+				</article>
+			<div class="service__wrap">
+				<article class="service__article article">
+       	  <div class="article__photo2">
+       	  </div>
+          <h3 class="article__title"> Краткий курс </h3>
+						<p class="article__text">Экспресс курс рассчитан на тех, кто хочет повысить свой уровень в короткий срок, узнать новые техники катания и получить лайфхаки “как кататься как чемпион” от опытных инструкторов, подходит как для новичков, так и более опытных</p>
+					<div class="article__links">
+						<span>5 занятий</span>
+						<a href="#">
+						<i class="article__icon_right"></i></a>
+					</div>
+				</article>
 
-          <div class="wrap__info">
-						<h3 class="wrap__title"> Краткий курс </h3>
-						<p class="wrap__text">Экспресс курс рассчитан на тех, кто хочет повысить свой уровень в короткий срок, узнать новые техники катания и получить лайфхаки “как кататься как чемпион” от опытных инструкторов, подходит как для новичков, так и более опытных </p>
-						<div class="wrap__links">
-								<span>5 занятий</span>
-								<a href="#">
-									<i class="wrap__icon_right"></i></a>
+				<article class="service__article article article--tablet">
+        	<div class="article__photo3">
+        	</div>
+        	<h3 class="article__title"> Полный курс </h3>
+						<p class="article__text">Продвинутый курс для самых вдохновленных горными лыжами и сноубордом, здесь вы не только улучшите свою технику, но и получите много дополнительных обучающих материалов и видео-уроков от участников мировых чемпионатов, здесь вы узнаете все</p>
+						<div class="article__links">
+							<span>5 занятий</span>
+							<a href="#">
+							<i class="article__icon_right"></i></a>
 					  </div>
-					</div>
-
-					<div class="wrap__info">
-						<h3 class="wrap__title"> Разовое посещение </h3>
-						<p class="wrap__text">Впервые здесь? Тогда эта возможность точно для вас. Приходите на разовое занятие и проникнетесь атмосферой школы, познакомитесь с инструкторами и узнаете о том, как проходит обучение. После занятия мы определим ваш уровень и прикинем план занятий</p>
-						<div class="wrap__links">
-								<span>3 часа</span>
-								<a href="#">
-									<i class="wrap__icon_right"></i></a>
-					  </div>
-					</div>
-
-          <div class="wrap__photo">
-						<img src="images/services__photo3.jpg" alt="ski">
-					</div>
-
-					<div class="wrap__info">
-						<h3 class="wrap__title"> Продвинутый курс </h3>
-						<p class="wrap__text">Продвинутый курс для самых вдохновленных горными лыжами и сноубордом, здесь вы не только улучшите свою технику, но и получите много дополнительных обучающих материалов и видео-уроков от участников мировых чемпионатов, здесь вы узнаете все</p>
-						<div class="wrap__links">
-								<span>5 занятий</span>
-								<a href="#">
-									<i class="wrap__icon_right"></i></a>
-					  </div>
-					</div>
-				</div>
+				</article>
+			</div>
+			</div>
+			</div>
 		</section>
 
 		<section class="feature">
@@ -97,34 +99,46 @@
 				<h2 class="feature__title">Почему мы</h2>
 				<article class="feature__item">
 					<i class="feature__item_like"></i>
+					<div class="feature__wrap">
 					<h3 class="feature__subtitle"> 100%<br>
 					гарантия результата </h3>
 					<p class="feature__text">Уверены — научиться кататься и улучшить свой навык может каждый, и мы гарантируем результат уже через 5 занятий</p>
+					</div>
 				</article>
 				<article class="feature__item">
 					<i class="feature__item_certificate"></i>
+					<div class="feature__wrap">
 					<h3 class="feature__subtitle"> Опытные <br> инструкторы </h3>
 					<p class="feature__text">У всех инструкторов школы есть международный сертификат, который дает право обучать катанию на сноуборде и горных лыжах</p>
+          </div>
 				</article>
 				<article class="feature__item">
 					<i class="feature__item_calendar"></i>
+					<div class="feature__wrap">
 					<h3 class="feature__subtitle"> Индивидуальные занятия<br> и расписание </h3>
 					<p class="feature__text">Мы любим индивидуальный подход, поэтому все занятия с тренером — персональные, а график обучения составляете вы сами</p>
+				  </div>
 				</article>
 				<article class="feature__item">
 					<i class="feature__item_ski"></i>
+					<div class="feature__wrap">
 					<h3 class="feature__subtitle"> Инвентарь и одежда </h3>
 					<p class="feature__text">Все, что необходимо для комфортного занятия, включено в стоимость, с нами не нужно беспокоиться об аренде снаряжения и покупке дорогой одежды</p>
+				  </div>
 				</article>
 				<article class="feature__item">
 					<i class="feature__item_security"></i>
+					<div class="feature__wrap">
 					<h3 class="feature__subtitle"> Безопасность </h3>
 					<p class="feature__text">Каждый инструктор подбирает технику катания и угол склона индивидуально под ваш уровень и гарантирует 100% безопасность во время занятия</p>
+					<div>
 				</article>
 				<article class="feature__item">
 					<i class="feature__item_bus"></i>
+					<div class="feature__wrap">
 					<h3 class="feature__subtitle"> 	Трансфер </h3>
 					<p class="feature__text">30 минут и вы на месте, столько примерно занимает дорога из центра города до склона на нашем бесплатном трансфере, который легко забронировать</p>
+				  </div>
 				</article>
 			</div>
 		</section>

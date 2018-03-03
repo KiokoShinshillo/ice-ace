@@ -2,16 +2,29 @@
   background-image: url('../images/promo__bg.jpg');
   background-color: #000;
   background-size: cover;
-  background-position: center bottom;
-  height: 400px;
+  background-position: -400px bottom;
+  background-repeat: no-repeat;
+  height: 475px;
+  position: relative;
 
+
+
+  &__logo {
+
+    @media (min-width: $screen-sm) {
+      display: none;
+    }
+  }
+  &__logo-img {}
 
   @media (min-width: $screen-xs) {}
   @media (min-width: $screen-sm) {}
 
   @media (min-width: $screen-lg) {
+    background-position: center bottom;
     padding-bottom: 320px;
     padding-top: 100px;
+    height: 640px;
   }
 
   &__title {
@@ -42,8 +55,47 @@
     }
   }
 
-  &__container {
+  &__btn-container{
+    position: absolute;
     width: 100%;
+    bottom: 67px;
+    display:flex;
+    justify-content: center;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+  }
+
+  &__btn{
+
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    line-height: 20px;
+    padding: 12px 10px;
+    text-transform: uppercase;
+    border: 2px solid $green;
+
+
+    @media (min-width: $screen-xs) {}
+    @media (min-width: $screen-sm) {}
+
+    @media (min-width: $screen-lg) {
+      display: none;
+    }
+  }
+
+  &__container {
+    width: 290px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+
+
 
     @media (min-width: $screen-xs) {}
     @media (min-width: $screen-sm) {}
@@ -53,3 +105,5 @@
     }
   }
 }
+
+
