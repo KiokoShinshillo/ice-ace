@@ -4,15 +4,31 @@
   background-size: cover;
   background-position: -400px bottom;
   background-repeat: no-repeat;
-  height: 475px;
+  height: 480px;
   position: relative;
+  @media (min-width: $screen-sm) {
+     background-position: center bottom;
+     height: 415px;
+  }
 
+  &__menu-icon{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    @media (min-width: $screen-lg) {
+      display: none;
+    }
 
+  }
 
   &__logo {
+    position: absolute;
+    left: 15px;
+    top: 15px;
 
-    @media (min-width: $screen-sm) {
+    @media (min-width: $screen-lg) {
       display: none;
+
     }
   }
   &__logo-img {}
@@ -30,10 +46,11 @@
   &__title {
     color: #fff;
     font-size: 24px;
-
-
-    @media (min-width: $screen-xs) {}
-    @media (min-width: $screen-sm) {}
+    padding-top: 125px;
+    @media (min-width: $screen-sm) {
+      padding-top: 112px;
+      padding-right: 74px;
+    }
 
     @media (min-width: $screen-lg) {
      font-size: 50px;
@@ -64,6 +81,9 @@
     // top: 0;
     // left: 0;
     // right: 0;
+    @media (min-width: $screen-sm) {
+      display: none;
+    }
   }
 
   &__btn{
@@ -89,21 +109,17 @@
   &__container {
     width: 290px;
     margin: 0 auto;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    @media (min-width: $screen-sm) {
+      width: 738px;
+      padding-left: 75px;
+    }
 
-
-
-
-
-    @media (min-width: $screen-xs) {}
-    @media (min-width: $screen-sm) {}
     @media (min-width: $screen-lg) {
       width: 1160px;
       margin: 0 auto;
     }
   }
 }
+
 
 

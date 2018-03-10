@@ -13,9 +13,9 @@
   }
 
   &__title {
-    @media (min-width: $screen-xs) {
-
-  }
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
 
   @media (min-width: $screen-sm) {
 
@@ -24,28 +24,34 @@
   @media (min-width: $screen-lg) {
     margin-bottom: 40px;
     font-size: 40px;
-    font-weight: 700;
-    text-align: center;
     color: #000;
   }
   }
 
   &__container {
+
     text-align: center;
     background-image: url("../images/team__photo.jpg");
     background-size: cover;
     background-position: center bottom;
-    padding-top: 540px;
-    margin-bottom: 80px;
+    min-height: 370px;
+    padding-top: 310px;
+    margin-bottom: 20px;
+    @media (min-width: $screen-lg) {
+    padding-top: 520px;
+    margin-bottom: 40px;
+    }
   }
 
   &__text {
-    @media (min-width: $screen-xs) {
-
-  }
-
+    display: none;
   @media (min-width: $screen-sm) {
-
+    display: block;
+    font-family: PT Sans, sans;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 700;
+    padding: 0 45px;
   }
 
   @media (min-width: $screen-lg) {
@@ -62,15 +68,6 @@
   }
 
   &__btn {
-    @media (min-width: $screen-xs) {
-
-  }
-
-  @media (min-width: $screen-sm) {
-
-  }
-
-  @media (min-width: $screen-lg) {
     display: inline-block;
     margin: auto;
     text-align: center;
@@ -82,7 +79,11 @@
     padding: 12px 10px;
     text-transform: uppercase;
     border: 2px solid #000;
+    @media (min-width: $screen-sm) {
+      margin-top: 20px;
 
   }
+
+  @media (min-width: $screen-lg) {}
   }
 }

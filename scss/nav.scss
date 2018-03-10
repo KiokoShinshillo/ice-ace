@@ -1,5 +1,5 @@
 .nav {
-  display: none;
+
 
   @media (min-width: $screen-xs) {
 
@@ -16,6 +16,11 @@
 
   &__list {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 84px;
+
+
 
     @media (min-width: $screen-xs) {
 
@@ -26,12 +31,23 @@
     }
 
     @media (min-width: $screen-lg) {
+      display: block;
+      padding-top: 0;
 
     }
   }
 
   &__item {
-    display: none;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid $green;
+
 
     @media (min-width: $screen-xs) {
 
@@ -43,15 +59,15 @@
 
     @media (min-width: $screen-lg) {
 
-      display: block;
-      align-items: flex-end;
-      justify-content: space-between;
+
       display: inline-block;
       margin-left: 40px;
+      border-bottom: none;
+      width: auto;
     }
 
     &--current{
-      display: none;
+
 
       @media (min-width: $screen-xs) {
 
@@ -68,7 +84,7 @@
       }
 
       &:after{
-        display: none;
+
 
       @media (min-width: $screen-xs) {
 
@@ -96,7 +112,12 @@
   }
 
   &__link {
-    display: none;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
 
     @media (min-width: $screen-xs) {
 
@@ -108,7 +129,7 @@
 
     @media (min-width: $screen-lg) {
 
-    display: block;
+    display: inline-block;
     font-size: 15px;
     font-weight: 700;
     text-decoration: none;

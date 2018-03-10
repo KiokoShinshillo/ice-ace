@@ -50,6 +50,10 @@
       width: 740px;
     }
 
+     @media (min-width: $screen-lg) {
+      width: 100%;
+    }
+
     // width: 51.5%;
 
   }
@@ -58,14 +62,52 @@
     display: flex;
     margin-left: 1px;
     flex-wrap: wrap;
+
+    @media (min-width: $screen-lg) {
+      width: 760px;
+    }
     // width: 48.5%;
+
+  }
+
+  &__article--desktop{
+   display: block !important;
   }
 }
+
+
 .article {
   position: relative;
   margin-bottom: 1px;
 
+  @media (min-width: $screen-lg) {
+    display: flex;
+    justify-content: space-between;
+  }
 
+  &--tablet{
+    @media (min-width: $screen-sm) {
+    display: none;
+  }
+  //   @media (min-width: $screen-lg) {
+  //   display: flex;
+  //   justify-content: space-between;
+
+
+  // }
+  }
+
+  &__content{
+    @media (min-width: $screen-sm) {
+      width: 364px;
+
+    }
+    @media (min-width: $screen-lg) {
+      width: 360px;
+
+  }
+
+  }
 
   &__photo1 {
     min-width: 165px;
@@ -80,10 +122,16 @@
 
     @media (min-width: $screen-xs) {}
     @media (min-width: $screen-sm) {
+      &:before {
+        display: none;
+      }
       width: 364px;
       height: 247px;
     }
-    @media (min-width: $screen-lg) {}
+    @media (min-width: $screen-lg) {
+      margin-bottom: 40px;
+      width: 360px;
+    }
 
 
     &:before {
@@ -118,12 +166,20 @@
         position: absolute;
         bottom: 0;
       }
+
     @media (min-width: $screen-xs) {}
     @media (min-width: $screen-sm) {
+      &:before {
+        display: none;
+      }
       width: 364px;
       height: 247px;
     }
-    @media (min-width: $screen-lg) {}
+    @media (min-width: $screen-lg) {
+      width: 360px;
+      margin-right: 40px;
+      margin-bottom: 40px;
+    }
   }
 
   &__photo3 {
@@ -137,14 +193,7 @@
     background-repeat: no-repeat;
     position: relative;
 
-    @media (min-width: $screen-xs) {}
-    @media (min-width: $screen-sm) {
-      width: 364px;
-      height: 247px;
-    }
-    @media (min-width: $screen-lg) {}
-
-    &:before {
+     &:before {
         content: "";
         width: 100%;
         height: 57px;
@@ -155,6 +204,23 @@
       }
 
 
+    @media (min-width: $screen-sm) {
+      &:before {
+        display: none;
+      }
+      width: 364px;
+      height: 247px;
+    }
+    @media (min-width: $screen-lg) {
+      display: block;
+      width: 360px;
+      margin-right: 40px;
+      // margin-bottom: 40px;
+    }
+
+
+
+
   }
   &__title {
     font-size: 14px;
@@ -163,12 +229,35 @@
     left: 5px;
     bottom: 5px;
     color: #fff;
+    @media (min-width: $screen-xs) {}
+     @media (min-width: $screen-sm) {
+     color: #000;
+     position: static;
+     font-size: 20px;
+     font-weight: 700;
+     margin: 0;
+     margin-top: 29px;
+
+
+     }
+     @media (min-width: $screen-lg) {
+      margin-top: 0px;
+     }
   }
+
   &__text {
+    font-family: PT Sans, sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+
     display: none;
      @media (min-width: $screen-xs) {}
      @media (min-width: $screen-sm) {
+      font-size: 15px;
       display: block;
+      margin: 0;
+      margin-top: 15px;
+
      }
      @media (min-width: $screen-lg) {}
 
@@ -178,43 +267,49 @@
     right: 15px;
     bottom: 15px;
 
+    @media (min-width: $screen-sm) {
+       position: static;
+       margin-top: 10px;
+       display: flex;
+       justify-content: space-between;
+    }
+
     & span {
       display: none;
-       @media (min-width: $screen-xs) {}
        @media (min-width: $screen-sm) {
+        position: static;
         display: inline;
+        font-size: 20px;
+        font-weight: 700;
        }
        @media (min-width: $screen-lg) {}
     }
   }
-   &__icon_right {
-    width: 19px;
-    height: 14px;
-    background: url('../images/css_sprites-mob.png') -170px -155px;
-    opacity: 0.9;
-    // background-image: url("../images/article__icon-right--mobile.png");
-    background-size: cover;
-    background-repeat: no-repeat;
 
+    &__icon_right {
+      width: 19px;
+      height: 14px;
+      background: url('../images/css_sprites-mob.png') -170px -155px;
+      opacity: 0.9;
+      // background-image: url("../images/article__icon-right--mobile.png");
+      background-repeat: no-repeat;
 
+      @media (min-width: $screen-xs) {}
 
-
-
-    @media (min-width: $screen-xs) {}
-
-    @media (min-width: $screen-sm) {
+      @media (min-width: $screen-sm) {
       width: 35px;
       height: 25px;
       opacity: 1;
-    }
+      width: 37px; height: 27px;
+      background: url('../images/css_sprites.png') -114px -186px;
+      }
 
-    @media (min-width: $screen-lg) {
+      @media (min-width: $screen-lg) {
       width: 37px;
       height: 27px;
 
-
+      }
     }
-  }
 
   &__img {
   }

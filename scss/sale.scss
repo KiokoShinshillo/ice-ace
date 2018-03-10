@@ -1,16 +1,16 @@
+/* sale */
 .sale {
 
   background-image: url("../images/sale__bg.jpg");
   background-size: cover;
   background-position: center bottom;
-  font-size: 0;
-  height: 380px;
+  min-height: 300px;
   padding-top: 10px;
 
-  @media (min-width: $screen-xs) {
-
+   @media (min-width: $screen-sm) {
+    padding-top: 20px;
+    padding-bottom: 30px;
   }
-
   @media (min-width: $screen-sm) {
 
   }
@@ -22,71 +22,133 @@
 
   &__container {
     text-align: center;
+    width: 290px;
+    margin: 0 auto;
+    @media (min-width: $screen-sm) {
+      width: 740px;
+    }
+    @media (min-width: $screen-lg) {
+      width: 1160px;
+    }
+
+
+  }
+
+  &__inner {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   &__title {
-    @media (min-width: $screen-xs) {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
 
-  }
+    @media (min-width: $screen-sm) {
 
-  @media (min-width: $screen-sm) {
+    }
 
-  }
-
-  @media (min-width: $screen-lg) {
-
-
-  }
-
-    &--white {
+    @media (min-width: $screen-lg) {
       font-size: 40px;
-      font-weight: 700;
-      text-align: center;
-      color: white;
+
     }
   }
 
-  &__item {
-    @media (min-width: $screen-xs) {
+  &__item1 {
+    padding: 0 20px;
 
+    @media (min-width: $screen-sm) {
+
+      width: 33%;
+    }
+
+    @media (min-width: $screen-lg) {
+      display: inline-block;
+      padding: 0 40px;
+      margin: auto;
+      text-align: center;
+      /*vertical-align: middle;*/
+      font-size: 15px;
+      font-weight: 700;
+      color: white;
+
+      }
   }
 
-  @media (min-width: $screen-sm) {
+  &__item2 {
+    display: none;
+    padding: 0 20px;
+    @media (min-width: $screen-sm) {
+      display: block;
+      width: 33%;
+    }
 
+    @media (min-width: $screen-lg) {
+      display: inline-block;
+      width: 33.33%;
+      padding: 0 40px;
+      margin: auto;
+      text-align: center;
+      /*vertical-align: middle;*/
+      font-size: 15px;
+      font-weight: 700;
+      color: white;
+
+      }
   }
 
-  @media (min-width: $screen-lg) {
-    display: inline-block;
-    width: 33.33%;
-    padding: 0 40px;
-    margin: auto;
-    text-align: center;
-    /*vertical-align: middle;*/
+  &__item3 {
+    display: none;
+    padding: 0 20px;
+    @media (min-width: $screen-sm) {
+      display: block;
+      width: 33%;
+    }
+
+    @media (min-width: $screen-lg) {
+      display: inline-block;
+      width: 33.33%;
+      padding: 0 40px;
+      margin: auto;
+      text-align: center;
+      /*vertical-align: middle;*/
+      font-size: 15px;
+      font-weight: 700;
+      color: white;
+
+      }
+  }
+  &__text {
+    display: block;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #fff;
+    padding-right: 20px;
+    padding-left: 20px;
+
+      @media (min-width: $screen-sm) {
+        padding: 0;
+
+      }
+  }
+
+  &__text span {
     font-size: 15px;
     font-weight: 700;
-    color: white;
-
-  }
-
-  &__item span {
-  margin-bottom: 45px;
-  font-size: 15px;
-  font-weight: 700;
-  color: #74e196;
-  }
-
-    &--green {
-    }
+    color: #74e196;
   }
 
   &__subtitle {
-
-    &--white {
     font-size: 22px;
     font-weight: 700;
     text-align: center;
     color: white;
-    }
+    margin-top: 10px;
+
   }
 
   &__btn {
@@ -102,6 +164,7 @@
     padding: 12px 10px;
     text-transform: uppercase;
     border: 2px solid #fff;
+    margin-bottom: 20px;
     }
   }
 }

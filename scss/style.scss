@@ -1,15 +1,14 @@
 //Не трогаем
+@import 'slick.scss';
 @import 'fonts.scss';
 @import 'variables.scss';
 @import 'global.scss';
 
 // Подключение настроек шрифта, переменных и глобальных свойств
 @import 'promo.scss';
-@import 'main.scss';
 
 @import 'nav.scss';
 @import 'header.scss';
-@import 'footer.scss';
 
 @import 'service.scss';
 @import 'feature.scss';
@@ -25,4 +24,7 @@
 @import 'program.scss';
 @import 'card.scss';
 @import 'feedback.scss';
+@import 'menu-icon.scss';
+// @import 'footer.scss';
+@import 'footer-1.scss';
 
