@@ -69,43 +69,22 @@
     &--current{
 
 
-      @media (min-width: $screen-xs) {
-
-      }
-
-      @media (min-width: $screen-sm) {
-
-      }
-
       @media (min-width: $screen-lg) {
 
-      display: block;
       position: relative;
       }
 
       &:after{
 
-
-      @media (min-width: $screen-xs) {
-
-      }
-
-      @media (min-width: $screen-sm) {
-
-      }
-
       @media (min-width: $screen-lg) {
 
-        display: block;
         content: '';
         border-bottom: 3px solid $green;
         position: absolute;
         width: 100%;
         display: inline-block;
-        top: 140%;
+        bottom: 5px;
         left: 0;
-        right: 0;
-        margin: auto;
       }
       }
     }

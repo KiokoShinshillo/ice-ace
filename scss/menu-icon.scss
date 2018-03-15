@@ -18,8 +18,19 @@ $cubic-bezier-out: cubic-bezier(1,0.70,1,0.30);
     height: $menu-icon-line-height;
     width: 100%;
     background-color: #fff;
+
     transition: background-color .2s ease-in-out;
-  }
+}
+.line-1--black,
+.line-2--black,
+.line-3--black {
+    height: $menu-icon-line-height;
+    width: 100%;
+    background-color: #000;
+
+    transition: background-color .2s ease-in-out;
+}
+
   .line-1 {
     animation: animate-line-1-rev .7s ease-in-out;
   }
