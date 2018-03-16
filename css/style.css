@@ -257,6 +257,17 @@ i {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
+  .header__btn {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #74e196;
+    line-height: 20px;
+    padding: 12px 10px;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    margin-top: 25px; }
 
 .logo1 {
   display: block;
@@ -728,7 +739,7 @@ i {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  margin-top: 10px;
+  margin-top: 15px;
   position: relative; }
 
 .profile__title {
@@ -740,7 +751,6 @@ i {
   position: absolute;
   top: 160px;
   padding-left: 15px;
-  z-index: 110;
   width: 290px; }
 
 .profile__avatar {
@@ -849,10 +859,9 @@ i {
     line-height: 20px;
     padding: 12px 10px;
     text-transform: uppercase;
-    border: 2px solid #74e196;
-    z-index: 102;
+    border: 2px solid #fff !important;
     position: absolute;
-    top: 205px;
+    top: 213px;
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%); }
@@ -1704,7 +1713,8 @@ i {
       .list__item-text {
         display: block;
         padding-left: 0;
-        font-size: 15px; }
+        font-size: 15px;
+        color: #000; }
     .list__item-text-none {
       display: none; }
       .list__item_ski {
@@ -1735,7 +1745,7 @@ i {
         -webkit-transform: translateX(0);
                 transform: translateX(0);
         position: static;
-        border: 2px solid #000;
+        border: 2px solid #000 !important;
         color: #74e196; }
         .action__btn--like {
           margin-top: 0; }
@@ -1924,8 +1934,9 @@ i {
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between; }
-    .header__btn {
-      margin-left: 40px; }
+      .header__btn {
+        margin-top: 0px !important;
+        margin-left: 40px; }
     .logo1 {
       display: none; }
     .logo1__img {
@@ -1934,6 +1945,7 @@ i {
       margin-right: 35px; }
     .logo2 {
       width: 160px;
+      height: 55px;
       display: inline-block; }
     .logo2__img {
       width: 100%;
@@ -2168,7 +2180,8 @@ i {
         right: 150px;
         bottom: 40px; }
     .btn {
-      margin-top: 30px; }
+      margin-top: 30px;
+      padding: 10px 15px; }
     .profile__prev {
       width: 14px;
       height: 28px;
@@ -2186,6 +2199,19 @@ i {
         margin-bottom: 40px; }
       .feedback__container__btn-wrap {
         margin-top: 60px; }
+    .form {
+      width: 556px; }
+      .form__label {
+        margin-bottom: 10px;
+        font-family: Futura PT;
+        font-size: 20px;
+        font-weight: 500; }
+      .form__input {
+        height: 45px;
+        margin-bottom: 20px;
+        font-size: 15px; }
+      .form__textarea {
+        font-size: 15px; }
     .footer {
       background-size: cover;
       background-image: url("../images/footer__bg.jpg");

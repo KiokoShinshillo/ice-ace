@@ -4,7 +4,7 @@
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 10px;
+    margin-top: 15px;
     position: relative;
 
 
@@ -31,7 +31,7 @@
     top: 160px;
 
     padding-left: 15px;
-    z-index: 110;
+    // z-index: 100;
     width: 290px;
 
     @media (min-width: $screen-sm) {
@@ -230,6 +230,7 @@
       display: block;
       padding-left: 0;
       font-size: 15px;
+       color: #000;
     }
     @media (min-width: $screen-lg) {
       font-size: 20px;
@@ -301,16 +302,12 @@
     line-height: 20px;
     padding: 12px 10px;
     text-transform: uppercase;
-    border: 2px solid $green;
-    z-index: 102;
+    border: 2px solid #fff !important;
+    // z-index: 102;
     position: absolute;
-    top: 205px;
+    top: 213px;
     left: 50%;
     transform: translateX(-50%);
-
-
-
-
 
     @media (min-width: $screen-sm) {
       top: auto;
@@ -319,7 +316,7 @@
       margin-bottom: 10px;
       transform: translateX(0);
       position: static;
-      border: 2px solid #000;
+      border: 2px solid #000 !important;
       color: $green;
     }
 
@@ -340,10 +337,8 @@
       }
     }
 
-
-
-
 }
 }
 .btn {
+
 }

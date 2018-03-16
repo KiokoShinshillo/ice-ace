@@ -49,7 +49,16 @@
   }
 
   &__btn {
-
+display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #74e196;
+    line-height: 20px;
+    padding: 12px 10px;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    margin-top: 25px;
 
   @media (min-width: $screen-xs) {
 
@@ -60,8 +69,11 @@
   }
 
   @media (min-width: $screen-lg) {
+    margin-top: 0px !important;
     margin-left: 40px;
+
   }
+
   }
 }
 
@@ -102,6 +114,7 @@
 
   @media (min-width: $screen-lg) {
     width: 160px;
+    height: 55px;
     display: inline-block;
   }
 
